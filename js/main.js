@@ -71,6 +71,9 @@ fillCuisinesHTML = (cuisines = self.cuisines) => {
 /**
  * Initialize leaflet map, called from HTML.
  */
+ 
+// code reference Matthew Cranford: https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-1-map-api/
+
 initMap = () => {
   self.newMap = L.map('map', {
         center: [40.722216, -73.987501],

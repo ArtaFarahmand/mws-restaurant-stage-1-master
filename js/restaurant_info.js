@@ -11,6 +11,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
 /**
  * Initialize leaflet map
  */
+ 
+ //// code reference Matthew Cranford: https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-1-map-api/
+ 
 initMap = () => {
   fetchRestaurantFromURL((error, restaurant) => {
     if (error) { // Got an error!
