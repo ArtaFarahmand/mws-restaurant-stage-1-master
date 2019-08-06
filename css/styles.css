@@ -280,6 +280,7 @@ nav h1 a {
   color: #666;
 }
 
+/* ====================== Responsive styles ====================== */
 /* code reference: https://github.com/hkedia321/udacity-restaurants-review/blob/master/css/styles.css */
 
 @media (max-width: 459px) {
@@ -303,6 +304,7 @@ nav h1 a {
 		top: 121px;
 		width: 100%;
 	}
+	
 	#breadcrumb {
 		width: 100%;
 	}
