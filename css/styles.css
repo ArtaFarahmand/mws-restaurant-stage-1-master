@@ -211,6 +211,7 @@ nav h1 a {
   bottom: 0;
   position: absolute;
   width: 50%;
+	box-sizing: border-box;
 }
 #restaurant-name {
   color: #f18200;
@@ -277,4 +278,32 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
+}
+
+/* code reference: https://github.com/hkedia321/udacity-restaurants-review/blob/master/css/styles.css */
+
+@media (max-width: 459px) {
+	.filter-options {
+		height: 110px;
+	}
+}
+
+@media (max-width: 769px) {
+	#maincontent {
+		width: : 100%;
+	}
+	
+	#restaurant-container, #review-container, .inside #footer {
+		width: 100%;
+	}
+	
+	.inside #map-container {
+		height: 400px;
+		position: relative;
+		top: 121px;
+		width: 100%;
+	}
+	#breadcrumb {
+		width: 100%;
+	}
 }
