@@ -1,4 +1,5 @@
 // code reference matthewcranford: https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-4-service-workers/
+
 console.log('Service Worker: Registered');
 
 // array storing a list of files we want cache, for faster loading.
