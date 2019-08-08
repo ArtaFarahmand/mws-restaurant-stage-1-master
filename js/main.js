@@ -1,3 +1,11 @@
+// code reference matthewcranford: https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-4-service-workers/
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('http://localhost:8080/Google%20Drive/Education/Udacity%20/mws-restaurant-stage-1-master/sw.js')
+  .catch(function(err) {
+    console.error(err);
+  });
+}
+
 let restaurants,
   neighborhoods,
   cuisines
@@ -212,4 +220,8 @@ addMarkersToMap = (restaurants = self.restaurants) => {
     self.markers.push(marker);
   });
 } */
+
+// code reference matthewcranford: https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-4-service-workers/
+
+// the conditional statments checks whether or not a browser supports service work and then registers a method for the string file URL and if there are any errors logs them to the console.
 
