@@ -36,7 +36,7 @@ self.addEventListener('install', function(e) {
 self.addEventListener('fetch', function(e) {
   e.respondWith(
     caches.match(e.request).then(function(response) {
-      if(resonse) {
+      if(response) {
         console.log('Found', e.request, 'in cache');
         return response;
       }else {
